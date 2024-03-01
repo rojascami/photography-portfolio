@@ -1,0 +1,36 @@
+.logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color: black;
+    padding: 1% 2%;
+    visibility: hidden;
+    align-self:flex-start;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 14s linear infinite;
+}
+
+
+@-moz-keyframes spin {
+    100% {
+      -moz-transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  @keyframes spin {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+}   
+
+@media (min-width: 600px) {
+    .logo {
+        visibility: visible;
+    }
+  }
