@@ -5,19 +5,19 @@ export const links = [
     },
     {
         title: "Landscapes",
-        href: "/landscapes"
+        href: "landscapes"
     },
     {
         title: "Sports",
-        href: "/sports"
+        href: "sports"
     },
     {
         title: "Audiovisuals",
-        href: "/audiovisuals"
+        href: "audiovisuals"
     },
     {
         title: "Contact",
-        href: "/contact"
+        href: "contact"
     }
 ]
 

@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
-import { motion, useScroll } from "framer-motion";
 import "./globals.css";
 import Header from "../components/Header/header";
+
 
 const inter = Inter({
   subsets: ["latin"],

@@ -5,7 +5,7 @@ import { videos } from '../../lib/video-data'
 
 export default function Page() {
   return (
-    <section>
+    <section id="audiovisuals">
       <Suspense fallback={<p>Loading video...</p>}>
         <VideosNav videos={videos} />
       </Suspense>

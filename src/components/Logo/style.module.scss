@@ -9,6 +9,12 @@
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 14s linear infinite;
+  //  animation-timeline: scroll();
+     animation-range: entry 50% cover 50%;
+}
+
+.small {
+  scale: .7;
 }
 
 
@@ -27,7 +33,15 @@
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
-}   
+  }
+  @keyframes shrink {
+    0%{
+      scale: 1;
+    }
+    50%{
+      scale: .4;
+    }
+  } 
 
 @media (min-width: 600px) {
     .logo {

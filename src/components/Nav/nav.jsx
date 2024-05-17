@@ -2,7 +2,7 @@
 import styles from './style.module.scss';
 import { Poppins } from "next/font/google";
 
-
+import Link from 'next/link'
 import { usePathname } from 'next/navigation';
 import { links } from "./data";
 import { motion } from 'framer-motion';
@@ -37,7 +37,7 @@ export default function Nav () {
             <div className={styles.body}>
                 {links.map((link, index) => (
                     <motion.div key={index} custom={index} variants={perspective} animate="enter" exit="exit" initial="initial">
-                        <a className={pathname === link.href ? styles.active : "" } href={link.href}>{link.title}</a>
+                        <Link className={pathname === link.href ? styles.active : "" } href={`#${link.href}`}>{link.title}</Link>
                     </motion.div>
                 ))}
             </div>

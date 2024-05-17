@@ -1,12 +1,12 @@
 "use client";
 import { motion, useScroll } from "framer-motion";
 import { images } from '../../lib/sports-data'
-import ImageNav from '../../components/ImageNav'
+import ImageNav from '../../components/ImageNav/imageNav'
 
 export default function App() {
   return (
-    <>
-        <ImageNav images={images}></ImageNav>
-    </>
+    <div id="sports">
+    <ImageNav title="sports" images={images}></ImageNav>
+</div>
   );
 }

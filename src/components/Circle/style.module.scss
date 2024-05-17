@@ -18,9 +18,7 @@
     width: 23rem;
     height: 23rem;
     border-radius: 50%;
-
-    .logo {
-    }
+    transition: 1s ease;
 
     .text {
       padding: 10px;
@@ -33,6 +31,12 @@
       margin: 0 auto;
       width: 800px;
     }
+  }
+
+
+  .circle:hover {
+    scale: 1.2;
+    // box-shadow: 8px 8px 100px 80px rgba(255, 255, 255, 0.75);
   }
 }
 @media (min-width: 600px) {
