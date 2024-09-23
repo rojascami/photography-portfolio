@@ -14,25 +14,8 @@ export default function Header() {
 
   let variants = {}
 
-  const isMobile = window.innerWidth < 768;
-  if (!isMobile) {
-    variants = {
-      open: {
-        width: 350,
-        height: 500,
-        top: "-20px",
-        left: "1100px",
-        transition: { duration: 0.7, ease: [0.76, 0, 0.24, 1] },
-      },
-      closed: {
-        width: 0,
-        height: 0,
-        top: "1.5px",
-        left:"1350px",
-        transition: { duration: 0.7, delay: 0.35, ease: [0.76, 0, 0.30, 0] },
-      }
-    };
-  } else {
+ 
+
     variants = {
       open: {
         width: 350,
@@ -49,7 +32,7 @@ export default function Header() {
         transition: { duration: 0.7, delay: 0.35, ease: [0.76, 0, 0.30, 0] },
       }
     };
-  }
+  
 
   return (
     <div className={styles.front}>
