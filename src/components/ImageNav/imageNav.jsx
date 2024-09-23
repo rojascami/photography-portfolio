@@ -20,8 +20,9 @@ export default function ImageNav({ images, title }) {
      <h2 className={`${styles.titleGallery}`}>{title}</h2>
       <Gallery options={options} >
         <div className={styles.containerGallery}>
-          {images.map((item) => (
+          {images.map((item, index) => (
             <Item
+              key={index}
             original={item.src}
             // thumbnail={item.src}
             width="1024"
