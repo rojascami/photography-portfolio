@@ -10,7 +10,7 @@ export default function Circle() {
 
         </div>
 
-        <h3 className={styles.text}>Let's work together!</h3>
+        <h3 className={styles.text}>Let&apos;s work together!</h3>
         <p className={styles.mail}>hello@email.com</p>
       </div>
     </div>
