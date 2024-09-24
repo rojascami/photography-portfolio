@@ -7,19 +7,16 @@
 
 .header {
   position: fixed;
-  display: flex;
-  align-items: center;
-  left: 10%;
+  right: 50px;
   top: 50px;
-  z-index: 99;
-  margin-right: 4%;
+  z-index: 10;
 
   .menu {
-      position: relative;
-      width: 280px;
-      height: 650px;
+      width: 28rem;
+      height: 65rem;
       background-color: rgb(183, 158, 201);
       border-radius: 25px;
+      position: relative;
   }
   .logo {
       position: absolute;

@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Menu app",
+  title: "Photography portfolio",
   description: "Photos portfolio",
 };
 
