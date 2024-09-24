@@ -24,6 +24,7 @@ export default function Header() {
           height: isActive ? '40rem' : '4rem',
           margin: isActive ? '0' : '1rem',
         }}
+        initial = {{width: '10rem', height: '4rem', margin: '1rem'}}
         transition={{duration: 0.75, delay: isActive ? 0 : 0.25, ease: [0.76, 0, 0.24, 1]}}
         onClick={()=>{setIsActive(!isActive)}}
         >
