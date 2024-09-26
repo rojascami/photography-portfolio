@@ -1,0 +1,40 @@
+.footer {
+  //   background-color: rgba(255, 255, 255, 0.363);
+
+  font-size: 1.7rem;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    li {
+      color: black;
+      background-color: white;
+      padding: 1px 15px 1px 20px;
+      
+      transition: 0.3s;
+      transform: skew(2deg, 2deg);
+      a,
+      a:visited {
+        text-decoration: none;
+        color: black;
+      }
+
+      &:hover {
+        background-color: black;
+        cursor: pointer;
+        transform: skew(0deg, 0deg);
+        padding: 1px 15px 1px 20px;
+
+        a,
+      a:visited {
+        text-decoration: none;
+        color: white;
+      }
+      }
+    }
+  }
+}
