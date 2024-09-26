@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.body} id="contact">
     <Circle />
-    <Footer></Footer>
+    <Footer />
     </main>
   );
 }
