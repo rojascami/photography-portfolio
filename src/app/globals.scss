@@ -1,0 +1,85 @@
+html {
+  
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media (max-width: 37.5em) {
+    font-size: 40%;
+  }
+  @media (max-width: 75em){ 
+    font-size: 50%;
+  };
+  
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  margin: 0; 
+  padding: 0; 
+  width: 100vw; 
+  height: 100vh; 
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: #fff3;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #fff3;
+}
+
+
+h1
+ {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)),
+  url("https://images.unsplash.com/photo-1708917880580-a6bea5c232a1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  animation: fade linear both;
+  animation-timeline: view();
+  animation-range: entry 80% cover 70%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: -100; 
+  pointer-events: none;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0;
+   width: 100vw;
+}
+
+

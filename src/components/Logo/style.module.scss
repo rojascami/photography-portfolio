@@ -1,7 +1,7 @@
 .logo {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 1rem;
+    left: 1rem;
     color: black;
     padding: 1% 2%;
     visibility: hidden;
@@ -9,8 +9,8 @@
     -webkit-animation: spin 4s linear infinite;
     -moz-animation: spin 4s linear infinite;
     animation: spin 14s linear infinite;
-  //  animation-timeline: scroll();
      animation-range: entry 50% cover 50%;
+     z-index: 2000;
 }
 
 .small {

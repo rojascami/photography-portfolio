@@ -16,6 +16,8 @@ export default function Header() {
      
 
   return (
+    <div className={styles.front}>
+      <Logo></Logo>
     <div className={styles.header}>
       <motion.div 
         className={styles.menu}
@@ -35,5 +37,7 @@ export default function Header() {
       </motion.div>
       <Button isActive={isActive} setIsActive={setIsActive}/>
     </div>
+    </div>
+
   );
 }

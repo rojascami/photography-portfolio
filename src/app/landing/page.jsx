@@ -15,25 +15,17 @@ const inter = Inter({
 
 export default function Landing() {
 
-
-  
+ 
   return (
     
-    <main className={styles.body} id="home">
-      <div className={styles.background}>
-
-</div>
       <div className={styles.wrapper}>
-      
-        <div className={styles.presentation}>
+
           <h2 className={`${styles.scrollText} ${inter.className}`}>photography & video</h2>
           <h2 className={`${styles.scrollText}  ${rubik.className}`}>
             photography & video
           </h2>
-        </div>
-        <div className={styles.intro}></div>
-      </div>
+          </div>
 
-    </main>
+
   );
 }
