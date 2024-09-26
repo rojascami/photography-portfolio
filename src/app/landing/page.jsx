@@ -6,6 +6,8 @@ const rubik = Rubik_Scribble({
   subsets: ["latin"],
   weight: "400",
   style: "normal",
+  display: 'swap',
+  adjustFontFallback: false
 });
 const inter = Inter({
   subsets: ["latin"],
