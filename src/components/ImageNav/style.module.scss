@@ -9,6 +9,10 @@
 }
 .imageGallery {
   margin: 2rem;
+  transition: 0.2s;
+  &:hover{
+    scale: 1.1;
+  }
 }
 @media (max-width: 600px) {
   .containerGallery {
